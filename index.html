@@ -8,7 +8,16 @@
     <title>Nina Gerasimchuk</title>
     <meta name="author" content="" />
     <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
-
+    <script>
+      // Use a proxy
+      GitHubCalendar(".calendar", "NinaSekret", {
+        proxy(username) {
+          return fetch(`https://your-proxy.com/github?user=NinaSekret`);
+        },
+        responsive: true,
+        global_stats: false,
+      }).then((r) => r.text());
+    </script>
     <link rel="stylesheet" href="assets/css/color.css" />
     <link rel="stylesheet" href="assets/css/styles.css" />
     <link rel="shortcut icon" href="assets/img/favicon.png" />
@@ -360,15 +369,5 @@
     <script src="assets/js/mbclicker.min.js"></script>
     <script src="assets/js/site-btn.js"></script>
     <script src="assets/js/style-switcher.js"></script>
-    <script>
-      // Use a proxy
-      GitHubCalendar(".calendar", "NinaSekret", {
-        proxy(username) {
-          return fetch(`https://your-proxy.com/github?user=NinaSekret`);
-        },
-        responsive: true,
-        global_stats: false,
-      }).then((r) => r.text());
-    </script>
   </body>
 </html>
