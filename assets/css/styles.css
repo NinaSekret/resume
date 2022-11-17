@@ -1,3 +1,13 @@
+.color-header {
+  position: relative;
+}
+.calendar {
+  border: 0px solid #dddddd !important;
+  border-color: inherit !important;
+}
+.border {
+  border: 0px solid #dddddd !important;
+}
 .color-header::before {
   background: linear-gradient(
     54deg,
