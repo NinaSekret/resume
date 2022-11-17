@@ -363,9 +363,6 @@
     <script>
       // Use a proxy
       GitHubCalendar(".calendar", "NinaSekret", {
-        proxy(username) {
-          return fetch(`https://your-proxy.com/github?user=NinaSekret`);
-        },
         responsive: true,
         global_stats: false,
       }).then((r) => r.text());
