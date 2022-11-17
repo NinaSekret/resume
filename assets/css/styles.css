@@ -1,0 +1,44 @@
+.color-header::before {
+  background: linear-gradient(
+    54deg,
+    rgba(31, 31, 33, 0.95) 34%,
+    rgba(181, 122, 253, 0.646) 100%
+  );
+}
+
+.color-background::before {
+  background: linear-gradient(
+    187deg,
+    rgba(31, 31, 33, 0.95) 34%,
+    rgba(181, 122, 253, 0.646) 100%
+  );
+}
+
+.footer-section {
+  padding-bottom: 9px;
+}
+
+.footer-position {
+  top: 25px;
+}
+.resume-list__block-description {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.resume-list__block-subtitle {
+  font-size: 14px;
+  color: #9991b6;
+  line-height: 1.8;
+  margin-bottom: 10px !important;
+}
+
+.skills__block-label {
+  font-family: Inconsolata, monospace;
+  padding: 3px 8px;
+  display: inline-block;
+  font-size: 15px;
+  line-height: 20px;
+  background-color: #fff;
+  box-shadow: 0 1px 4px rgb(0 0 0 / 14%);
+}
