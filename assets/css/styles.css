@@ -12,15 +12,15 @@
   background: linear-gradient(
     54deg,
     rgba(31, 31, 33, 0.95) 34%,
-    rgba(181, 122, 253, 0.646) 100%
+    rgb(240 240 240 / 65%) 100%
   );
 }
 
 .color-background::before {
   background: linear-gradient(
-    187deg,
+    54deg,
     rgba(31, 31, 33, 0.95) 34%,
-    rgba(181, 122, 253, 0.646) 100%
+    rgb(240 240 240 / 65%) 100%
   );
 }
 

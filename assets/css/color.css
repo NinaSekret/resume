@@ -82,8 +82,14 @@ section {
   display: block;
 }
 body {
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
-    Helvetica Neue, Arial, sans-serif;
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    Segoe UI,
+    Roboto,
+    Helvetica Neue,
+    Arial,
+    sans-serif;
   font-size: 1rem;
   line-height: 1.5;
   color: #212529;
@@ -392,7 +398,13 @@ code,
 kbd,
 pre,
 samp {
-  font-family: Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
+  font-family:
+    Menlo,
+    Monaco,
+    Consolas,
+    Liberation Mono,
+    Courier New,
+    monospace;
 }
 code {
   padding: 0.2rem 0.4rem;
@@ -1497,7 +1509,9 @@ pre code {
   background-clip: padding-box;
   border: 1px solid rgba(0, 0, 0, 0.15);
   border-radius: 0.25rem;
-  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition:
+    border-color 0.15s ease-in-out,
+    box-shadow 0.15s ease-in-out;
 }
 .form-control::-ms-expand {
   background-color: transparent;
@@ -2818,7 +2832,9 @@ tbody.collapse.show {
   background-color: #007bff;
 }
 .custom-control-input:focus ~ .custom-control-indicator {
-  box-shadow: 0 0 0 1px #fff, 0 0 0 3px #007bff;
+  box-shadow:
+    0 0 0 1px #fff,
+    0 0 0 3px #007bff;
 }
 .custom-control-input:active ~ .custom-control-indicator {
   color: #fff;
@@ -4281,7 +4297,9 @@ button.close {
 .modal.fade .modal-dialog {
   transition: -webkit-transform 0.3s ease-out;
   transition: transform 0.3s ease-out;
-  transition: transform 0.3s ease-out, -webkit-transform 0.3s ease-out;
+  transition:
+    transform 0.3s ease-out,
+    -webkit-transform 0.3s ease-out;
   -webkit-transform: translateY(-25%);
   transform: translateY(-25%);
 }
@@ -4397,8 +4415,14 @@ button.close {
   z-index: 1070;
   display: block;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
-    Helvetica Neue, Arial, sans-serif;
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    Segoe UI,
+    Roboto,
+    Helvetica Neue,
+    Arial,
+    sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -4505,8 +4529,14 @@ button.close {
   z-index: 1060;
   max-width: 276px;
   padding: 1px;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
-    Helvetica Neue, Arial, sans-serif;
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    Segoe UI,
+    Roboto,
+    Helvetica Neue,
+    Arial,
+    sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -4694,7 +4724,9 @@ button.close {
   width: 100%;
   transition: -webkit-transform 0.6s ease;
   transition: transform 0.6s ease;
-  transition: transform 0.6s ease, -webkit-transform 0.6s ease;
+  transition:
+    transform 0.6s ease,
+    -webkit-transform 0.6s ease;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-perspective: 1000px;
@@ -7696,7 +7728,8 @@ a.text-dark:hover {
 @font-face {
   font-family: FontAwesome;
   src: url(../fonts/fontawesome-webfont.eot?v=4.7.0);
-  src: url(../fonts/fontawesome-webfont.eot?#iefix&v=4.7.0)
+  src:
+    url(../fonts/fontawesome-webfont.eot?#iefix&v=4.7.0)
       format("embedded-opentype"),
     url(../fonts/fontawesome-webfont.woff2?v=4.7.0) format("woff2"),
     url(../fonts/fontawesome-webfont.woff?v=4.7.0) format("woff"),
@@ -10254,7 +10287,9 @@ a a:active {
 nav {
   font-size: 12px;
   line-height: 18px;
-  font-family: Roboto Mono, monospace;
+  font-family:
+    Roboto Mono,
+    monospace;
   text-transform: uppercase;
   font-weight: 700;
   margin-bottom: 30px;
@@ -10297,8 +10332,16 @@ input[type="number"]::-webkit-outer-spin-button {
 }
 .personal-profile {
   color: #fff;
-  font-family: Roboto Mono, monospace;
+  font-family:
+    Roboto Mono,
+    monospace;
   padding-top: 90px;
+}
+
+@media screen and (max-width: 765px) {
+  .personal-profile {
+    padding-top: 0px;
+  }
 }
 .personal-profile .personal-profile__avatar img {
   border-radius: 5px;
@@ -10311,11 +10354,14 @@ input[type="number"]::-webkit-outer-spin-button {
   position: relative;
   top: 40px;
 }
-@media screen and (max-width: 990px) {
-  .personal-profile .personal-profile__avatar {
-    display: none;
+
+@media screen and (max-width: 765px) {
+  .personal-profile .personal-profile__avatar img {
+    width: 100%;
+    height: 500px;
   }
 }
+
 .personal-profile .personal-profile__name {
   font-size: 44px;
   line-height: 50px;
@@ -10373,7 +10419,9 @@ input[type="number"]::-webkit-outer-spin-button {
 .contact-list {
   font-size: 16px;
   line-height: 24px;
-  font-family: Roboto Mono, monospace;
+  font-family:
+    Roboto Mono,
+    monospace;
 }
 .contact-list dt {
   float: left;
@@ -10398,7 +10446,9 @@ input[type="number"]::-webkit-outer-spin-button {
   margin-bottom: 40px;
   font-size: 36px;
   line-height: 42px;
-  font-family: Roboto Mono, monospace;
+  font-family:
+    Roboto Mono,
+    monospace;
 }
 .section .section__description {
   margin-bottom: 30px;
@@ -10465,7 +10515,9 @@ input[type="number"]::-webkit-outer-spin-button {
 .menu .menu__wrapper nav {
   font-size: 14px;
   line-height: 20px;
-  font-family: Roboto Mono, monospace;
+  font-family:
+    Roboto Mono,
+    monospace;
   text-transform: uppercase;
   font-weight: 700;
 }
@@ -10544,7 +10596,9 @@ input[type="number"]::-webkit-outer-spin-button {
 .project-card .project-card__title {
   font-size: 18px;
   line-height: 30px;
-  font-family: Roboto Mono, monospace;
+  font-family:
+    Roboto Mono,
+    monospace;
   text-transform: uppercase;
   margin-bottom: 15px;
   font-weight: 700;
@@ -10555,7 +10609,9 @@ input[type="number"]::-webkit-outer-spin-button {
   margin-bottom: 45px;
 }
 .project-card .project-card__stack {
-  font-family: Roboto Mono, monospace;
+  font-family:
+    Roboto Mono,
+    monospace;
   font-size: 12px;
   line-height: 18px;
   font-weight: 700;
@@ -10564,7 +10620,9 @@ input[type="number"]::-webkit-outer-spin-button {
 }
 .project-card .project-card__link {
   margin-top: 55px;
-  font-family: Roboto Mono, monospace;
+  font-family:
+    Roboto Mono,
+    monospace;
   font-size: 14px;
   line-height: 20px;
   float: right;
@@ -10578,7 +10636,9 @@ input[type="number"]::-webkit-outer-spin-button {
   margin-bottom: 30px;
 }
 .resume-list .resume-list_title {
-  font-family: Roboto Mono, monospace;
+  font-family:
+    Roboto Mono,
+    monospace;
   font-size: 14px;
   line-height: 20px;
   letter-spacing: 5px;
@@ -10613,7 +10673,9 @@ input[type="number"]::-webkit-outer-spin-button {
   color: #6d56c1;
   font-size: 14px;
   line-height: 20px;
-  font-family: Roboto Mono, monospace;
+  font-family:
+    Roboto Mono,
+    monospace;
   font-weight: 700;
   padding-bottom: 5px;
 }
@@ -10665,7 +10727,9 @@ input[type="number"]::-webkit-outer-spin-button {
   margin-bottom: 10px;
 }
 .post-cards .post-cards_title {
-  font-family: Roboto Mono, monospace;
+  font-family:
+    Roboto Mono,
+    monospace;
   font-size: 14px;
   line-height: 20px;
   text-transform: uppercase;
@@ -10759,13 +10823,17 @@ input[type="number"]::-webkit-outer-spin-button {
   color: #fff;
   font-size: 16px;
   line-height: 24px;
-  font-family: Roboto Mono, monospace;
+  font-family:
+    Roboto Mono,
+    monospace;
 }
 .contacts .contacts__form input::-webkit-input-placeholder {
   color: #fff;
   font-size: 16px;
   line-height: 24px;
-  font-family: Roboto Mono, monospace;
+  font-family:
+    Roboto Mono,
+    monospace;
 }
 .contacts
   .contacts__form
@@ -10784,13 +10852,17 @@ input[type="number"]::-webkit-outer-spin-button {
   color: #fff;
   font-size: 16px;
   line-height: 24px;
-  font-family: Roboto Mono, monospace;
+  font-family:
+    Roboto Mono,
+    monospace;
 }
 .contacts .contacts__form input:-ms-input-placeholder {
   color: #fff;
   font-size: 16px;
   line-height: 24px;
-  font-family: Roboto Mono, monospace;
+  font-family:
+    Roboto Mono,
+    monospace;
 }
 .contacts .contacts__form input:active,
 .contacts .contacts__form input:focus {
@@ -10817,26 +10889,34 @@ input[type="number"]::-webkit-outer-spin-button {
   color: #fff;
   font-size: 16px;
   line-height: 24px;
-  font-family: Roboto Mono, monospace;
+  font-family:
+    Roboto Mono,
+    monospace;
 }
 .contacts .contacts__form textarea::-webkit-input-placeholder {
   color: #fff;
   font-size: 16px;
   line-height: 24px;
-  font-family: Roboto Mono, monospace;
+  font-family:
+    Roboto Mono,
+    monospace;
 }
 .contacts .contacts__form textarea:-moz-placeholder,
 .contacts .contacts__form textarea::-moz-placeholder {
   color: #fff;
   font-size: 16px;
   line-height: 24px;
-  font-family: Roboto Mono, monospace;
+  font-family:
+    Roboto Mono,
+    monospace;
 }
 .contacts .contacts__form textarea:-ms-input-placeholder {
   color: #fff;
   font-size: 16px;
   line-height: 24px;
-  font-family: Roboto Mono, monospace;
+  font-family:
+    Roboto Mono,
+    monospace;
 }
 .contacts .contacts__form textarea:active,
 .contacts .contacts__form textarea:focus {
@@ -10865,7 +10945,9 @@ input[type="number"]::-webkit-outer-spin-button {
 .footer {
   font-size: 16px;
   line-height: 24px;
-  font-family: Roboto Mono, monospace;
+  font-family:
+    Roboto Mono,
+    monospace;
 }
 .footer {
   color: #fff;
@@ -10880,7 +10962,9 @@ input[type="number"]::-webkit-outer-spin-button {
   margin-top: 30px;
 }
 .progress-list .progress-list__title {
-  font-family: Roboto Mono, monospace;
+  font-family:
+    Roboto Mono,
+    monospace;
   letter-spacing: 5px;
   font-weight: 700;
   color: #999;
@@ -10940,7 +11024,9 @@ input[type="number"]::-webkit-outer-spin-button {
   }
 }
 .portfolio-modal .portfolio-modal__title {
-  font-family: Roboto Mono, monospace;
+  font-family:
+    Roboto Mono,
+    monospace;
   margin-bottom: 30px;
 }
 .portfolio-modal .portfolio-modal__img {
@@ -10953,7 +11039,9 @@ input[type="number"]::-webkit-outer-spin-button {
   margin-bottom: 0;
 }
 .portfolio-modal .portfolio-modal__link {
-  font-family: Roboto Mono, monospace;
+  font-family:
+    Roboto Mono,
+    monospace;
   font-size: 14px;
   line-height: 20px;
   margin-top: 40px;
@@ -10965,7 +11053,9 @@ input[type="number"]::-webkit-outer-spin-button {
   margin-top: 40px;
 }
 .portfolio-modal .portfolio-modal__stack-title {
-  font-family: Roboto Mono, monospace;
+  font-family:
+    Roboto Mono,
+    monospace;
   font-size: 12px;
   line-height: 18px;
   font-weight: 700;
@@ -11014,7 +11104,9 @@ input[type="number"]::-webkit-outer-spin-button {
   margin-right: 10px;
 }
 .article .article__title {
-  font-family: Roboto Mono, monospace;
+  font-family:
+    Roboto Mono,
+    monospace;
   text-transform: uppercase;
   font-weight: 700;
   margin-top: 30px;
@@ -11042,7 +11134,9 @@ input[type="number"]::-webkit-outer-spin-button {
   color: #999;
   font-size: 14px;
   line-height: 20px;
-  font-family: Roboto Mono, monospace;
+  font-family:
+    Roboto Mono,
+    monospace;
   font-style: italic;
 }
 .article .article__share a {
@@ -11083,7 +11177,9 @@ input[type="number"]::-webkit-outer-spin-button {
 .posts .posts__title {
   font-size: 14px;
   line-height: 20px;
-  font-family: Roboto Mono, monospace;
+  font-family:
+    Roboto Mono,
+    monospace;
   text-transform: uppercase;
   color: #555;
   font-weight: 700;
@@ -11112,7 +11208,9 @@ input[type="number"]::-webkit-outer-spin-button {
 }
 .slider-carousel .slider-carousel__title {
   text-transform: uppercase;
-  font-family: Roboto Mono, monospace;
+  font-family:
+    Roboto Mono,
+    monospace;
   margin-top: 80px;
   margin-bottom: 10px;
 }
@@ -11214,7 +11312,9 @@ input[type="number"]::-webkit-outer-spin-button {
   overflow: auto;
   font-size: 14px;
   line-height: 20px;
-  font-family: Roboto Mono, monospace;
+  font-family:
+    Roboto Mono,
+    monospace;
   text-transform: uppercase;
   font-weight: 700;
   margin-top: 60px;

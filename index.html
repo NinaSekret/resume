@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -11,10 +11,7 @@
     <link rel="stylesheet" href="assets/css/color.css" />
     <link rel="stylesheet" href="assets/css/styles.css" />
     <link rel="shortcut icon" href="assets/img/favicon.png" />
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"
-    />
+
     <link
       href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Mono|Inconsolata"
       rel="stylesheet"
@@ -29,46 +26,81 @@
     <header class="main-header color-header">
       <div class="container">
         <div class="row personal-profile">
-          <div class="col-md-4 personal-profile__avatar mt-2">
-            <img class="h-100" src="assets/img/avatar_8.png" alt="avatar" />
+          <div class="col-md-4 personal-profile__avatar">
+            <img class="" src="assets/img/avatar.jpg" alt="avatar" />
           </div>
-          <div class="col-md-8 mt-5">
+          <div class="col-md-8">
             <div class="row">
-              <div class="col-md-12">
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="personal-profile__name p-0 m-0">Nina Gerasimchuk</div>
-                  <div class="personal-profile__social p-0 m-0">
-                    <a href="https://github.com/NinaSekret" target="_blank"><i class="fa fa-github fa-lg"></i></a>
-                    <a href="https://www.instagram.com/nina_sekret" target="_blank"><i class="fa fa-instagram fa-lg"></i></a>
-                    <a href="https://vk.com/ninockasekret" target="_blank"><i class="fa fa-vk fa-lg"></i></a>
+              <div class="col-md-9">
+                <p class="personal-profile__name">Nina Gerasimchuk_</p>
+              </div>
+              <div class="col-md-3">
+                <p class="personal-profile__social">
+                  <a href="https://github.com/NinaSekret" target="_blank"
+                    ><i class="fa fa-github"></i
+                  ></a>
+                  <a
+                    href="https://www.instagram.com/nina_sekret"
+                    target="_blank"
+                    ><i class="fa fa-instagram"></i
+                  ></a>
+                  <a href="https://vk.com/ninockasekret" target="_blank"
+                    ><i class="fa fa-vk"></i
+                  ></a>
+                </p>
+              </div>
+            </div>
+            <p class="personal-profile__work">Software developer</p>
+            <div class="personal-profile__contacts">
+              <dl
+                class="contact-list contact-list__opacity-titles"
+                style="margin-bottom: 0px"
+              >
+                <div class="row">
+                  <div class="col-md-6">
+                    <dt>Email:</dt>
+                    <dd>
+                      <a href="mailto:oposym0045@gmail.com" target="_blank"
+                        >oposym0045@gmail.com</a
+                      >
+                    </dd>
+                  </div>
+                  <div class="col-md-6">
+                    <dt>Telegram:</dt>
+                    <dd>
+                      <a href="https://t.me/nsekret" target="_blank"
+                        >t.me/nsekret</a
+                      >
+                    </dd>
+                    <dt>LinkedIn:</dt>
+                    <dd>
+                      <a
+                        href="https://www.linkedin.com/in/nsekret/"
+                        target="_blank"
+                        >in/nsekret</a
+                      >
+                    </dd>
                   </div>
                 </div>
-              </div>
+              </dl>
             </div>
-            <div class="row">
-              <div class="col-md-12">
-                <p class="personal-profile__work m-0 pt-3 pb-4">Software Engineer</p>
-              </div>
+            <div
+              style="
+                overflow-x: auto;
+                -webkit-overflow-scrolling: touch;
+                margin-bottom: 30px;
+              "
+            >
+              <img
+                src="https://ghchart.rshah.org/NinaSekret"
+                alt="GitHub contributions"
+              />
             </div>
-            <div class="row personal-profile__contacts mb-0">
-              <div class="col-md-6">
-                <dl class="contact-list contact-list__opacity-titles">
-                  <dt>Email:</dt><dd><a href="mailto:oposym0045@gmail.com">oposym0045@gmail.com</a></dd>
-                  <dt>Location:</dt><dd>Astana, Kazakhstan (UTC+6)</dd>
-                </dl>
-              </div>
-              <div class="col-md-6">
-                <dl class="contact-list contact-list__opacity-titles">
-                  <dt>Telegram:</dt><dd><a href="https://t.me/nina_sekret" target="_blank">t.me/nina_sekret</a></dd>
-                  <dt>Linkedin:</dt><dd><a href="https://linkedin.com/in/nsekret" target="_blank">in/nsekret</a></dd>
-                </dl>
-              </div>
-            </div>
-            <div class="calendar"></div>
           </div>
         </div>
       </div>
     </header>
+
     <!--Header-->
 
     <!--Hello-->
@@ -78,10 +110,19 @@
           <h2 id="hello_header" class="section__title">Обо мне_</h2>
           <p class="section__description">
             Начинала свой творческий путь с работы системным администратором,
-            затем сменила область на программирование. Имею опыт разработки
-            проектов с нуля, а так же поддержки существующих. Основное
-            направление на данный момент - frontend. Участвовала в разработке
-            бекенда, выполняла так же инфраструктурные задачи.
+            затем сменила область на программирование. Занимаюсь разработкой
+            entrprise решений в основном на стороне frontend. <br />
+            <br />
+            В Neattech.io работала над продуктом для ветеринаров где помимо
+            основых задач по разработке frontend на react, занималась и backend
+            частью и поддерживала работоспособность prod-a в k8s. <br />
+            <br />
+
+            Последние 3 года развиваю свой продукт
+            <a href="https://mybuyer.online/" target="_blank"> mybuyer.online</a
+            >, сервис для доставки из-за рубежа, так же в роли full-stack
+            разработчика и дизайнера.
+            <br />
           </p>
           <a href="assets/CV.pdf" class="section_btn site-btn" target="_blank"
             ><img src="assets/img/img_btn_icon.png" alt="" />Download CV</a
@@ -107,8 +148,11 @@
             <div class="col-md-12">
               <label class="skills__block-label">React</label>
               <label class="skills__block-label">Apollo</label>
-              <label class="skills__block-label">GraphQL</label>
-              <label class="skills__block-label">Rest API</label>
+              <label class="skills__block-label">GraphQL API</label>
+              <label class="skills__block-label"
+                >RESTful API: Open API Spec / Swagger, CRUD API, headers based
+                pagination
+              </label>
               <label class="skills__block-label">CSS/SCSS</label>
               <label class="skills__block-label">HTML</label>
               <label class="skills__block-label">JavaScript</label>
@@ -186,7 +230,7 @@
       <div class="row">
         <div class="col-md-10">
           <h2 id="resume_header" class="section__title">
-            Опыт работы (6 лет 10 месяцев)_
+            Опыт работы (10 лет)_
           </h2>
         </div>
       </div>
@@ -194,7 +238,34 @@
         <div class="col-md-8 section__resume resume-list">
           <div class="resume-list__block">
             <p class="resume-list__block-title">
-              <a href="https://www.neattech.io/" target="_blank">
+              <a href="https://mybuyer.online/" target="_blank">
+                Mybuyer.online</a
+              >
+              (REMOTELY)
+            </p>
+            <p class="resume-list__block-subtitle">CEO</p>
+            <p class="resume-list__block-date">11.2022 - по настоящее время</p>
+            <div class="resume-list__block-description">
+              <br />
+              <strong>Роли:</strong> Full-stack developer
+              <br />
+
+              <div class="resume-list__block-description">
+                <br />
+                <strong> Основные задачи:</strong> Разработка платформы для
+                заказа товаров из за рубежа, разработка дизайна платформы. А так
+                же коммуникации с байерами и клиентами, ведение соц сетей.
+                <br />
+                <br />
+              </div>
+              <strong>Инструментарий:</strong> React, GraphQL API, Apollo,
+              Docker.
+              <br />
+            </div>
+          </div>
+          <div class="resume-list__block">
+            <p class="resume-list__block-title">
+              <a href="https://www.instagram.com/neattech.io/" target="_blank">
                 Neattech.io</a
               >
               (REMOTELY)
@@ -209,15 +280,19 @@
               developer
               <br />
               <br />
-              <strong>Используемые инструментарий:</strong> React, GraphQL,
-              Apollo, Docker, K8S, PostgreSQL, MongoDB, Express, Grafana,
-              AWS(K8S, CloudFront, RDS, S3).
+              <strong>Инструментарий:</strong> React, GraphQL API, Apollo,
+              Docker, K8S, PostgreSQL, MongoDB, Express, Grafana, AWS(K8S,
+              CloudFront, RDS, S3).
               <br />
             </div>
           </div>
           <div class="resume-list__block">
             <p class="resume-list__block-title">
-              <a href="https://atamore.com/" target="_blank">Atamore</a>
+              <a
+                href="https://www.linkedin.com/company/atamore/"
+                target="_blank"
+                >Atamore</a
+              >
               (REMOTELY)
             </p>
             <p class="resume-list__block-subtitle">Frontend developer</p>
@@ -228,13 +303,13 @@
               тестирвания, взаимодествие с командой бекенд разработки.
               <br />
               <br />
-              <strong>Используемые инструментарий:</strong> React, Redux,
-              Redux-Saga, Rest API.
+              <strong>Инструментарий:</strong> React, Redux, Redux-Saga, Rest
+              API.
             </div>
           </div>
           <div class="resume-list__block">
             <p class="resume-list__block-title">
-              <a href="https://2gis.ru/" target="_blank">2GIS</a> (OFFLINE)
+              <a href="https://2gis.ru/" target="_blank">2GIS</a> (Novosibirsk)
             </p>
             <p class="resume-list__block-subtitle">Junior frontend developer</p>
             <p class="resume-list__block-date">
@@ -246,16 +321,14 @@
               поддержка внутренних проектов.
               <br />
               <br />
-              <strong>Используемые инструментарий:</strong> React, Redux,
-              Redux-Saga, Rest API.
+              <strong>Инструментарий:</strong> React, Redux, Redux-Saga, Rest
+              API.
             </div>
           </div>
           <div class="resume-list__block">
             <p class="resume-list__block-title">
-              <a href="https://mega-com.ru/company/" target="_blank"
-                >ГК Мегаком</a
-              >
-              (OFFLINE)
+              <a href="https://mega-com.ru/company/" target="_blank">MegaCom</a>
+              (Novosibirsk)
             </p>
             <p class="resume-list__block-subtitle">System administrator</p>
             <p class="resume-list__block-date">
@@ -270,12 +343,7 @@
             </div>
           </div>
           <div class="resume-list__block">
-            <p class="resume-list__block-title">
-              <a href="https://mega-com.ru/company/" target="_blank"
-                >ЗАО Интертакс</a
-              >
-              (OFFLINE)
-            </p>
+            <p class="resume-list__block-title">Intertax (Krasnoyarsk)</p>
             <p class="resume-list__block-subtitle">System administrator</p>
             <p class="resume-list__block-date">
               10.2015 - 09.2016 (1 год 2 месяца)
@@ -310,7 +378,7 @@
               >
             </p>
             <p class="resume-list__block-subtitle">
-              Информатика и вычислительная техника.Сети ЭВМ и
+              Информатика и вычислительная техника. Сети ЭВМ и
               телекоммуникации.(магистратура)
             </p>
             <p class="resume-list__block-date">09.2015 - 06.2017</p>
@@ -347,12 +415,11 @@
     <div class="background color-background">
       <div id="contact" class="container footer-section">
         <div class="footer footer-position">
-          <p>last updates: 03.2023</p>
+          <p>last update: 2026</p>
         </div>
       </div>
     </div>
     <!--Contact-->
-
     <script src="assets/js/jquery-2.2.4.min.js"></script>
     <script src="assets/js/popper.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
@@ -367,13 +434,5 @@
     <script src="assets/js/mbclicker.min.js"></script>
     <script src="assets/js/site-btn.js"></script>
     <script src="assets/js/style-switcher.js"></script>
-    <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
-    <script>
-      // Use a proxy
-      GitHubCalendar(".calendar", "NinaSekret", {
-        responsive: true,
-        global_stats: false,
-      });
-    </script>
   </body>
 </html>
