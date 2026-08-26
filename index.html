@@ -50,7 +50,9 @@
                 </p>
               </div>
             </div>
-            <p class="personal-profile__work">Software developer</p>
+            <p class="personal-profile__work">
+              Frontend & Full Stack Developer
+            </p>
             <div class="personal-profile__contacts">
               <dl
                 class="contact-list contact-list__opacity-titles"
@@ -109,19 +111,29 @@
         <div class="col-md-10">
           <h2 id="hello_header" class="section__title">Обо мне_</h2>
           <p class="section__description">
-            Начинала свой творческий путь с работы системным администратором,
-            затем сменила область на программирование. Занимаюсь разработкой
-            entrprise решений в основном на стороне frontend. <br />
+            Я Full-stack разработчик, в IT больше 10 лет, начинала с сетевого
+            администрирования, а потом перешла в разработку и последние 8 лет
+            создаю веб-продукты с нуля, от макета в Figma до продакшена.
             <br />
-            В Neattech.io работала над продуктом для ветеринаров где помимо
-            основых задач по разработке frontend на react, занималась и backend
-            частью и поддерживала работоспособность prod-a в k8s. <br />
             <br />
-
-            Последние 3 года развивала продукт
-            <a href="https://mybuyer.online/" target="_blank"> mybuyer.online</a
-            >, сервис для доставки из-за рубежа, так же в роли full-stack
-            разработчика и дизайнера.
+            Последние три года работаю над
+            <a href="https://mybuyer.online/" target="_blank">
+              mybuyer.online</a
+            >
+            - платформой для заказа товаров из-за рубежа. Пишу frontend на React
+            и TypeScript, backend на Node.js с использованием Apollo и GraphQL.
+            Реализовала и запустила AI-фичу с виртуальной примеркой и доставила
+            еще десятки фичей под ключ.
+            <br />
+            <br />
+            До этого три года была частью команды Neattech.io, где работала над
+            SaaS решением для ветеринарных клиник, там же выросла из frontend
+            разработчика в Full-stack, а потом и Team Lead-а. Занималась
+            выполнением полного спектра задач связанных с продуктом, которые
+            затрагивают различные экспертизы - генерации CRUD, интеграция
+            платежных систем(Stripe), реализация работы pre-rendering для SPA,
+            построение CI/CD на базе GitHub Actions, поддержка Kubernetes
+            продакшена в экосистеме AWS.
             <br />
           </p>
           <a href="assets/cv.pdf" class="section_btn site-btn" target="_blank"
@@ -146,16 +158,18 @@
           <h3 class="resume-list_title">Основные</h3>
           <div class="row">
             <div class="col-md-12">
+              <label class="skills__block-label">JavaScript</label>
+              <label class="skills__block-label">TypeScript</label>
               <label class="skills__block-label">React</label>
+              <label class="skills__block-label">Node.js</label>
+              <label class="skills__block-label">Next.js</label>
               <label class="skills__block-label">Apollo</label>
               <label class="skills__block-label">GraphQL API</label>
               <label class="skills__block-label"
-                >RESTful API: Open API Spec / Swagger, CRUD API
-              </label>
+                >RESTful API: Open API Spec / Swagger, CRUD API</label
+              >
               <label class="skills__block-label">CSS/SCSS</label>
               <label class="skills__block-label">HTML</label>
-              <label class="skills__block-label">JavaScript</label>
-              <label class="skills__block-label">TypeScript</label>
             </div>
           </div>
           <h3 class="resume-list_title mt-5">Так же использовала</h3>
@@ -246,148 +260,99 @@
             <p class="resume-list__block-subtitle">Full-stack developer</p>
             <p class="resume-list__block-date">11.2022 - 07.2026</p>
             <div class="resume-list__block-description">
-              <br />
-              <strong>Роли:</strong> Full-stack developer
-              <br />
-
-              <div class="resume-list__block-description">
-                <br />
-                <strong> Основные задачи:</strong> Разработка платформы для
-                заказа товаров из за рубежа, разработка дизайна платформы.
-                <br />
-                <br />
-              </div>
-              <strong>Инструментарий:</strong> React, GraphQL API, Apollo,
-              Docker.
-              <br />
-              <br />
               <div>
-                <strong>Ключевые реализованные фичи:</strong>
+                • С нуля разработала сайт-платформу сервиса с ролями, с
+                адаптивной вертской, с учетом UX/UI, авторизацией и регистрацией
+                через OAuth-сервисы
                 <br />
-                - С нуля разработанный сайт с ролями, с адаптивной версткой, с
-                учетом ux/ui, авторизацией и регистрацией через OAuth-сервисы
+                • Реализовала синхронизацию каталога товаров со сторонних
+                площадок. Настроила data sync через парсинг и web scraping
+                данных. Исследовала и провела реверс-инжиниринг сторонних REST
+                API и построила ETL-пайплайны для регулярного обновления товаров
                 <br />
+                • Осуществила интеграцию платёжного шлюза ЮKassa. Реализовала
+                приём платежей, обработку webhook-уведомлений и работу со
+                статусами транзакций
                 <br />
-                - Синхронизация каталога товаров со сторонних площадок:
-                настроила data sync через парсинг и web scraping данных,
-                исследование и реверс-инжиниринг сторонних REST API и построение
-                ETL-пайплайна для регулярного обновления товаров
+                • Осуществила интеграцию со СДЭК, предоставив в результате
+                актуальные статусы в личном кабинете пользователя и байера
                 <br />
+                • Реализовала на платформе возможность виртуальной примерки
+                одежды на базе AI
                 <br />
-                - Интеграция платёжного шлюза ЮKassa: приём платежей, обработка
-                webhook-уведомлений и работа со статусами транзакций 
+                • Расширила каналы привлечения с помощью интеграции с
+                Яндекс.Товарами (синхронизация фида) и выгрузки каталога на
+                другие внешние площадки
                 <br />
-                <br />
-                - Вывела на рынок AI-фичу (виртуальная примерка с обработкой
-                изображений).
-                <br />
-                <br />
-                - Расширила каналы привлечения: интеграция с Яндекс.Товарами
-                (синхронизация фида), выгрузка каталога на внешние площадки.
-                <br />
-                <br />
-                - Строила воронки, настроила Яндекс.Метрику и Яндекс.Директ,
-                вела рекламные кампании и анализировала поведение пользователей
-                для принятия продуктовых решений.
-                <br />
-                <br />
-                - Вела прямую коммуникацию с клиентами и байерами, собирала
-                обратную связь и приоритизировала доработки;
-                <br />
-                <br />
-                - Развивала маркетинговую стратегию в соц сетях, следила за
-                метриками и принимала решения об изменении направления.
+                • Настроила Яндекс.Метрику и Яндекс.Директ, создала больше
+                десятка рекламных кампании в рамках собственно разработанной
+                маркетинговой стратегии
               </div>
+              <br />
+              <strong>Технологии:</strong> React, GraphQL API, Apollo, Docker.
             </div>
           </div>
           <div class="resume-list__block">
             <p class="resume-list__block-title">
-              <a href="https://www.instagram.com/neattech.io/" target="_blank">
-                Neattech.io</a
-              >
-              (REMOTELY)
+              <a href="https://www.instagram.com/neattech.io/" target="_blank"
+                >Neattech.io</a
+              >(REMOTELY)
             </p>
-            <p class="resume-list__block-subtitle">Full-stack developer</p>
+            <p class="resume-list__block-subtitle">
+              Frontend developer, Full-stack developer, TeamLead
+            </p>
             <p class="resume-list__block-date">
-              10.2019 - 10.2022 (2 года 11 месяцев)
+              06.2019 - 10.2022 (3 года 3 месяца)
             </p>
             <div class="resume-list__block-description">
               <br />
-              <strong>Роли:</strong> Frontend developer, TeamLead, Full-stack
-              developer
-              <br />
-              <br />
-              <strong>Инструментарий:</strong> React, GraphQL API, Apollo,
-              Docker, K8S, PostgreSQL, MongoDB, Express, Grafana, AWS(K8S,
-              CloudFront, RDS, S3).
-              <br />
-              <br />
               <div>
-                <strong>Ключевые реализованные фичи:</strong>
+                • Ввела бюджет ресурсов и организовала регулярную работу над
+                уменьшением технического долга
                 <br />
-                - Участвовала в реализации feature-стендов (для каждой ветки
-                поднимался свой стенд)
+                • Обеспечила выделение ресурсов на SEO улучшения (хлебные
+                крошки, генерация sitemap, разметка страниц метатегами, и т.д.)
                 <br />
+                • Инициировала и курировала разработку собственного UI-kit
                 <br />
-                - Поддержка и написание Github actions
-                <br />
-                <br />
-                - Интеграция Stripe на фронте и бэкенде: checkout, обработка
-                платежей и webhook
-                <br />
-                <br />
-                - Реализовала пререндер для SPA приложения (headless Chrome
-                prerender) и разметку Open Graph для корректного шаринга и SEO
+                • Инициировала и реализовала Open Graph разметку для повышения
+                информативности и кликабельности ссылок в соцсетях и
+                мессенджерах
                 <br />
                 <br />
-                - Написание базовых CRUD-операций и агрегаций данных
+                • Реализовала автоматическое создание feature-стендов для каждой
+                ветки в экосистеме GitHub с помощью написания GitHub Actions
                 <br />
+                • Реализовала GitHub Actions для тестирования, сборки и деплоя
                 <br />
-                - Сделала балк-загрузку товаров одним файлом: импорт из
-                CSV/Excel с обработкой
+                • Интегрировала платежную систему Stripe на frontend и backend
+                (checkout, payments processing, webhooks)
                 <br />
+                • Реализовала pre-render для SPA приложения на базе headless
+                Chrome
                 <br />
-                - Интегрировала Facebook SDK с отложенным постингом и
+                • Реализовала десятки базовых CRUD
+                <br />
+                • Написала сотни вариаций различных MongoDB агрегаций для
+                индексных страниц
+                <br />
+                • Реализовала пакетную закгрузку товаров с помощью CSV/Excel
+                фидов
+                <br />
+                • Интегрировала Facebook SDK с отложенным постингом и
                 редактированием постов
                 <br />
                 <br />
-
-                - Разработали собственный UI-kit
-                <br />
-                <br />
-                - Настроила Google Tag Manager для управления тегами и трекингом
-                <br />
-                <br />
-
-                - Работа с интернационализацией интерфейса (i18n)
-                <br />
-                <br />
-
-                - Использование Keycloak с кастомизацией темы
-
-                <br />
+                • Реализовала интернационализацию клиентской части приложения
+                (i18n) • Интегрировала и настроила Google Tag Manager для
+                управления тегами и трекингом • Интегрировала Keycloak и
+                реализовала брендирование для клиентских страниц
               </div>
-            </div>
-          </div>
-          <div class="resume-list__block">
-            <p class="resume-list__block-title">
-              <a
-                href="https://www.linkedin.com/company/atamore/"
-                target="_blank"
-                >Atamore</a
-              >
-              (REMOTELY)
-            </p>
-            <p class="resume-list__block-subtitle">Frontend developer</p>
-            <p class="resume-list__block-date">07.2019 - 10.2019 (3 месяца)</p>
-            <div class="resume-list__block-description">
-              <br />
-              <strong> Основные задачи:</strong> Разработка платформы для
-              тестирования, взаимодествие с командой backend разработки.
               <br />
               <br />
-              <strong>Инструментарий:</strong> React, Redux, Redux-Saga, Rest
-              API.
+              <strong>Технологии:</strong> React, GraphQL API, Apollo, Docker,
+              K8S, PostgreSQL, MongoDB, Express, Grafana, AWS(K8S, CloudFront,
+              RDS, S3).
             </div>
           </div>
           <div class="resume-list__block">
@@ -400,12 +365,31 @@
             </p>
             <div class="resume-list__block-description">
               <br />
-              <strong> Основные задачи:</strong> Разработка сезонных проектов,
-              поддержка внутренних проектов.
+              Разработка и поддержка сезонных и внутренних проектов.
               <br />
               <br />
-              <strong>Инструментарий:</strong> React, Redux, Redux-Saga, Rest
-              API.
+              <div>
+                • Разрабатывала с нуля сезонные спецпроекты (лендинги) на React
+                включавшие адаптивную вёрстку по макетам дизайнеров и анимации
+                <br />
+                • Реализовала асинхронную загрузку и обработку данных через
+                Redux, Redux-Saga и REST API
+                <br />
+                • Вынесла повторяющиеся элементы в переиспользуемые
+                UI-компоненты, что ускорило запуск новых сезонных проектов
+                <br />
+                • Оптимизировала производительность лендингов с помощью
+                применения lazy loading, оптимизировала изображения и размеры
+                бандла
+                <br />
+                • Поддерживала внутренние проекты путем исправления ошибок,
+                доработки функциональности, и проведения рефакторинга
+                <br />
+                • Участвовала в код-ревью и командной разработке по git-flow
+              </div>
+              <br />
+              <br />
+              <strong>Технологии:</strong> React, Redux, Redux-Saga, Rest API.
             </div>
           </div>
           <div class="resume-list__block">
@@ -419,10 +403,15 @@
             </p>
             <div class="resume-list__block-description">
               <br />
-              <strong> Основные задачи:</strong>
-              Мониторинг сети zabbix / Траблшутинг / Поддержка работоспособности
-              сети / Настройка разновендорного оборудования.
-              <br />
+              <div>
+                • Мониторинг сети zabbix
+                <br />
+                • Траблшутинг
+                <br />
+                • Поддержка работоспособности сети
+                <br />
+                • Настройка разновендорного оборудования.
+              </div>
             </div>
           </div>
           <div class="resume-list__block">
@@ -433,11 +422,15 @@
             </p>
             <div class="resume-list__block-description">
               <br />
-              <strong> Основные задачи:</strong> Настройка оборудования /
-              Мониторинг сети ​Nagios, ​Cacti, Icinga / Плановое и внеплановое
-              техническое обслуживание оборудования / Работа с оптоволоконными
-              линиями связи
-              <br />
+              <div>
+                • Настройка оборудования
+                <br />
+                • Мониторинг сети Nagios, Cacti, Icinga
+                <br />
+                • Плановое и внеплановое техническое обслуживание оборудования
+                <br />
+                • Работа с оптоволоконными линиями связи
+              </div>
             </div>
           </div>
         </div>
